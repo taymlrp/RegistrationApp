@@ -10,10 +10,10 @@ const app = express();
 
 // Database connection
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'C237_L11_usersdb'
+    host: 'mysql-tayml.alwaysdata.net',
+    user: 'tayml',
+    password: 'Pzcc9t6r24',
+    database: 'tayml_supermarket'
 });
 
 db.connect((err) => {
